@@ -1,13 +1,12 @@
 section {
-    /* border: .2rem solid blue; */
     display: flex;
     flex: 1;
+    background-color: gray;
 }
 
 nav {
-    /* border: .2rem solid yellow; */
     width: 10rem;
-    background-color: #eee;
+    background-color: #ff0000;
     padding: .5rem;
 }
 
