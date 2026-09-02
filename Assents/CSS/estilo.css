@@ -1,0 +1,18 @@
+@import url("cabecalho.css");
+@import url("cartao.css");
+@import url("corpo.css");
+@import url("rodape.css");
+
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    /* border: 0.5rem solid aqua; */
+    min-height: 100vh; /* view-port height */
+    display: flex;
+    flex-direction: column;
+}
