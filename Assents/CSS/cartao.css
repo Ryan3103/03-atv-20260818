@@ -1,5 +1,5 @@
 .cartao {
-    display:flex;
+    display: flex;
     flex-direction: column;
     padding: 1rem;
     border-radius: .5rem;
@@ -59,21 +59,39 @@
     font-weight: bold;
 }
 
+.cartao > a {
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
 .botao-do-cartao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     max-width: 100%;
-    padding: .5rem;
+    padding: .5rem 0.8rem;
     background-color: rgb(179, 2, 75);
     color: #eee;
     font-weight: bold;
     border: none;
     border-radius: .5rem;
     cursor: pointer;
-    margin-top: 1rem;
     text-align: center;
     text-decoration: none;
+}
+
+.icone-final-cartao {
+    width: 1rem;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
 }
 
 .botao-do-cartao:hover {
     background-color: rgb(255, 0, 106);
     color: white;
+}
+
+.botao-do-cartao:hover .icone-final-cartao {
+    opacity: 1;
 }
