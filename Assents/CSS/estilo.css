@@ -3,6 +3,7 @@
 @import url("menuLateral.css");
 @import url("corpo.css");
 @import url("rodape.css");
+@import url("responsividade.css");
 
 * {
     font-size: 16px;
