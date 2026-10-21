@@ -1,0 +1,54 @@
+header {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: .5rem;
+    background-color: rgb(218, 215, 215);
+    color: #000000
+}
+
+.logo {
+    border: .1rem solid rgb(115, 202, 144);
+    background-color: rgb(156, 228, 178);
+    color: #000000;
+    font-weight: bold;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: .7rem;
+}
+
+.titulo {
+    flex: 1;
+}
+
+.menu-hamburguer {
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #464646;
+}
+
+.menu-hamburguer #hamburguer {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.menu-hamburguer:hover #hamburguer {
+    color: rgb(0, 81, 255);
+}
+
+.menu-hamburguer #hamburguer:hover {
+    color: yellowgreen;
+}
