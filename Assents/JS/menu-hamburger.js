@@ -1,4 +1,7 @@
-function alterarVisual (){
+function alterarVisual() {
     const menu = document.querySelector("nav");
-    menu.classList.toggle("menu-oculto");
+    const classe = window.matchMedia("(max-width: 576px)").matches
+        ? "menu-aberto"
+        : "menu-oculto";
+    menu.classList.toggle(classe);
 }

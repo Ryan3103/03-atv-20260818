@@ -4,13 +4,7 @@ section {
     background-color: gray;
 }
 
-nav {
-    width: 10rem;
-    background-color: #ff0000;
-    padding: .5rem;
-}
-
-.container {
+.lista-noticias {
     display: flex;
     flex: 1;
     padding: 1rem;
